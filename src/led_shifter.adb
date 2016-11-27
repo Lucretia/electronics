@@ -1,6 +1,7 @@
 with AVR; use AVR;
 with AVR.MCU;
 with AVR.Real_Time.Clock;
+pragma Unreferenced (AVR.Real_Time.Clock);
 
 procedure LED_Shifter is
 begin
