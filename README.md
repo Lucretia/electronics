@@ -5,7 +5,7 @@ Various electronics experiments.
 ## Building
 
 ```bash
-$ avr-gnatmake -P electronics.gpr -XBOARD=board-arduino_uno
+$ make led_shifter
 ```
 
 ## LED Shifter
